@@ -3,6 +3,9 @@ import os
 results_file = open("results.txt", "w")
 ip_list = ["8.8.8.8", "8.8.4.4", "66.254.114.41", "192.168.1.1"]
 
+#to scan a whole subnet comment out the premade ip_list and uncomment the following lines
+#ip_list = []
+
 #for ip in range(1, 10):
 #    ip_list.append("192.168.178." + str(ip))
 
